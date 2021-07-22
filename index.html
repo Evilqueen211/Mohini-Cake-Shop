@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mohini's Cake Shop</title>
+	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<script src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	  
+</head>
+<body>
+	
+<!-- partial:index.partial.html -->
+<!-- Nav -->
+<nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+        <div class="col">
+			<span data-toggle="modal" data-target="#cart">
+				<i class="fas fa-shopping-cart fa-2x fa-border icon-grey zoom-sm"><span class="badge total-count"></span></i>
+			</span>
+
+		  <button class="clear-cart btn btn-danger ml-2" id="clearCart">
+			<i class="fas fa-undo"></i> Clear
+		  </button>
+		
+		</div>
+    </div>
+</nav>
+
+
+<!-- Main -->
+<div class="container">
+	<br>
+	<p style="text-align:center;"><img src="images/Cake logo.JPG" alt="Logo"></p>
+<hr>
+
+
+
+<div class="row">
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/red-velvet1.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Red Velvet</h4>
+					<p class="desc">Red Velvet Cake with Classic Cream Cheese Rosettes</p>
+					<div class="rating-wrap">
+						<div class="label-rating">132 reviews</div>
+						<div class="label-rating">154 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+					 <script src="checkboxes.js"></script>
+			</figcaption>
+			<div class="bottom-wrap">
+				<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="1" data-pimage="images/red-velvet1.JPG" data-name="Red Velvet Cake" data-price="220">
+					<i class="fas fa-shopping-cart"></i> Add to cart
+				</a>	
+				<div class="price-wrap h5">
+					<span class="price-new">Rs.220</span> <del class="price-old">Rs.300</del>
+				</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/black-f.JPG" class="rounded p-1"> </div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Black Forest</h4>
+					<p class="desc">Layers of eggless chocolate cake with whipped cream & cherries.</p>
+					<div class="rating-wrap">
+						<div class="label-rating">232 reviews</div>
+						<div class="label-rating">350 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="2" data-pimage="images/black-f.JPG" data-name="Black Forest Cake" data-price="315">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>		
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.315</span> <del class="price-old">Rs.480</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/rainbow.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Rainbow Cake</h4>
+					<p class="desc">Stunning celebration cake of Seven Colour and flavour layers</p>
+					<div class="rating-wrap">
+						<div class="label-rating">82 reviews</div>
+						<div class="label-rating">120 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="3"  data-pimage="images/rainbow.JPG" data-name="Rainbow Cake" data-price="375">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.375</span> <del class="price-old">Rs.550</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Brownie Delight.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Brownie Delight</h4>
+					<p class="desc">The best Brownie Delight of the city loaded with absolute richness.</p>
+					<div class="rating-wrap">
+						<div class="label-rating">85 reviews</div>
+						<div class="label-rating">130 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="4"  data-pimage="images/Brownie Delight.JPG" data-name="Brownie Delight" data-price="580">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.580</span> <del class="price-old">Rs.650</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Swiss Chocolate Tuffle.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Swiss Chocolate Truffle</h4>
+					<p class="desc">Made with homemdae whipped cream and full of richness in every bite. </p>
+					<div class="rating-wrap">
+						<div class="label-rating">90 reviews</div>
+						<div class="label-rating">150 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="5"  data-pimage="images/Swiss Chocolate Tuffle.JPG" data-name="Swiss Chocolate Truffle" data-price="550">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.550</span> <del class="price-old">Rs.690</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Angel Berry Trifle1.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Angel Berry Trifle</h4>
+					<p class="desc"> An angel berry trifle that's perfect for Easter brunch made with fresh berries</p>
+					<div class="rating-wrap">
+						<div class="label-rating">80 reviews</div>
+						<div class="label-rating">125 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="6"  data-pimage="images/Angel Berry Trifle1.JPG" data-name="Angel Berry Trifle" data-price="550">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.550</span> <del class="price-old">Rs.600</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Hearty Choco Kitkat Cake.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Hearty Choco Kitkat Cake</h4>
+					<p class="desc">The best Hearty Choco Kitkat Cake of the city loaded with absolute richness.</p>
+					<div class="rating-wrap">
+						<div class="label-rating">100 reviews</div>
+						<div class="label-rating">145 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="7"  data-pimage="images/Hearty Choco Kitkat Cake.JPG" data-name="Hearty Choco Kitkat Cake" data-price="950">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.950</span> <del class="price-old">Rs.1200</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Barbie Cake.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Pink Dress Barbie Cake</h4>
+					<p class="desc"> Beautifull Barbie Doll Cake With Prink Dress It's Yummmy!!</p>
+					<div class="rating-wrap">
+						<div class="label-rating">90 reviews</div>
+						<div class="label-rating">110 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="8"  data-pimage="images/Barbie Cake.JPG" data-name="Pink Dress Barbie Cake" data-price="650">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.650</span> <del class="price-old">Rs.750</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+
+	<div class="col-sm-12 col-md-6 col-xl-4">
+		<figure class="card card-product zoom">
+			<div class="img-wrap"><img src="images/Two tier Tiger Truffle Unicorn Cake.JPG" class="rounded p-1"></div>
+			<figcaption class="info-wrap">
+					<h4 class="title">Truffle Unicorn Cake</h4>
+					<p class="desc"> An Truffle Unicorn Cake that's perfect for Easter brunch made with fresh Creams</p>
+					<div class="rating-wrap">
+						<div class="label-rating">110 reviews</div>
+						<div class="label-rating">130 orders </div>
+						<br/>
+						<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					</div> <!-- rating-wrap.// -->
+			</figcaption>
+			<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right add-to-cart show-toast" data-product_id="9"  data-pimage="images/Two tier Tiger Truffle Unicorn Cake.JPG" data-name="Two tier Truffle Unicorn Cake" data-price="950">
+						<i class="fas fa-shopping-cart"></i> Add to cart
+					</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">Rs.950</span> <del class="price-old">Rs.1250</del>
+					</div> <!-- price-wrap.// -->
+			</div> <!-- bottom-wrap.// -->
+		</figure>
+	</div> <!-- col // -->
+	</div> <!-- row.// -->
+
+</div> 
+<!--container.//-->
+ <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+		<form action="index.html" method="get" class="cart-form">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-shopping-cart text-black"></i> Shopping Cart</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<table class="show-cart table">
+			  
+			</table>
+			<div class="font-weight-bold">Total price: $<span class="total-cart text-danger"></span></div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			<button type="submit" class="btn btn-success">Checkout</button>
+		  </div>
+		</form>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='assets/js/jquery.min.js'></script>
+  <script  src="assets/js/script.js"></script>
+  
+<!-- Shopping Cart Add Toast -->
+<div id="product-toast">
+    <div id="img">
+        <i class="fas fa-shopping-cart"></i>
+        Cart
+    </div>
+    <div id="desc"><span id="item-name"></span> added to cart</div>
+</div>
+
+</body>
+</html>
